@@ -1,15 +1,15 @@
-@import "variables";
-@import "skin";
+// @use "variables";
+// @use "skin";
 
-@import "mixins-media";
-@import "mixins";
-@import "extends";
+@use "mixins-media";
+@use "mixins";
+@use "extends";
 
-@import "bootstrap-theming";
+@use "bootstrap-theming";
 
-@import "common";
-@import "header";
-@import "main";
-@import "page";
-@import "sidebar";
-@import "footer";
+@use "common";
+@use "header";
+@use "main";
+@use "page";
+@use "sidebar";
+@use "footer";
