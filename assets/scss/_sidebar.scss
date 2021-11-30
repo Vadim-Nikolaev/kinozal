@@ -93,3 +93,50 @@ $image-size-with-padding: $image-size + $gap-md;
     }
   }
 }
+
+.top-films {
+  position: relative;
+  &__body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  &__list {
+    margin-bottom: 0;
+  }
+
+  &__item {
+    background-color: transparent;
+    margin-left: -1px;
+    margin-right: -1px;
+    color: $color-primary !important;
+    padding-right: 55px;
+
+    &:first-child {
+      border-top: none;
+      border-radius: 0;
+    }
+
+    &:last-child {
+      border-bottom: none;
+      border-radius: 0;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $color-accent !important;
+      color: $color-white !important;
+      border-color: $color-accent;
+
+      .badge {
+        background-color: $color-dark;
+      }
+    }
+  }
+
+  &__badge {
+    position: absolute;
+    right: $gap;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
