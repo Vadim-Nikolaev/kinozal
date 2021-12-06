@@ -1,4 +1,5 @@
-.header-logo__title, .header-logo__description {
+.header-logo__title,
+.header-logo__description {
   text-shadow: 0 0 5px black, 0 0 10px black, 0 0 20px black;
 }
 
@@ -12,13 +13,15 @@
   -o-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
-.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
   background-color: #165690;
 }
 .navbar-inverse .navbar-nav > .active > a {
   background-color: #053159;
 }
-.navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
   background-color: #517ba2;
 }
 
@@ -35,7 +38,7 @@
   border: none;
   background-color: #f4f4f4;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 .panel-info:not(:last-of-type) {
   margin-bottom: 30px;
@@ -56,7 +59,8 @@
   border-radius: 0 0 4px 4px;
 }
 
-.input-lg, .input-group-lg > .form-control {
+.input-lg,
+.input-group-lg > .form-control {
   font-size: 0.875rem;
 }
 
@@ -90,7 +94,8 @@ body {
 a {
   color: #165690;
 }
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   color: #df8a13;
 }
@@ -188,7 +193,7 @@ section {
   overflow: hidden;
   white-space: nowrap;
   -o-text-overflow: ellipsis;
-     text-overflow: ellipsis;
+  text-overflow: ellipsis;
   font-size: 1rem;
   margin: 0;
   font-weight: bold;
@@ -374,12 +379,14 @@ section {
   border-bottom: none;
   border-radius: 0;
 }
-.top-films__item:hover, .top-films__item:focus {
+.top-films__item:hover,
+.top-films__item:focus {
   background-color: #df8a13 !important;
   color: #ffffff !important;
   border-color: #df8a13;
 }
-.top-films__item:hover .badge, .top-films__item:focus .badge {
+.top-films__item:hover .badge,
+.top-films__item:focus .badge {
   background-color: #232323;
 }
 .top-films__badge {
@@ -387,8 +394,8 @@ section {
   right: 15px;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .footer {
